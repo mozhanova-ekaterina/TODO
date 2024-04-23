@@ -1,0 +1,12 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+
+  &_input {
+    border: 2px #f5f5f5 solid;
+    padding: 5px;
+    height: 35px;
+  }
+}
